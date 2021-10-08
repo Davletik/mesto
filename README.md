@@ -10,5 +10,5 @@
 
 Работу выполнил Моисеев Алексей, студент "Яндекс-Практимума"
 
-**Ссылка на GithubPages** :https://davletik.github.io/russian-travel/
+**Ссылка на GithubPages** https://davletik.github.io/mesto/
 
