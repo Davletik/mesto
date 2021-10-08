@@ -1,0 +1,11 @@
+.element__btn {
+    background-color: #FFFFFF;
+    max-height: 19px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.element__btn:hover {
+    opacity: 0.5;
+}
