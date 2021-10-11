@@ -7,10 +7,5 @@
     display: none;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.7);
-}
-
-@media screen and (max-width: 1023px) {
-    .popup {
-    }
+    background: rgba(0, 0, 0, 0.5);
 }

@@ -5,19 +5,21 @@ const editButton = document.querySelector('.profile__edit-button');
 const formButton = document.querySelector('.popup__button');
 const form = document.querySelector('.popup__form');
 
-const nameField = document.querySelector('.popup__input_name');
-const nameProfile =document.querySelector('.profile__name');
+const nameField = document.querySelector('.popup__input');
+const nameProfile = document.querySelector('.profile__name');
 
-const professionField = document.querySelector('.popup__input_profession');
+const professionField = document.querySelector('#profession');
 const professionText =document.querySelector('.profile__text');
 
 
 function openPopup() {
-    popup.classList.add('popup__open');
+    popup.classList.add('popup_open');
+    nameField.value = nameProfile.textContent.trim();
+    professionField.value = professionText.textContent.trim();
 }
 
 function closePopup() {
-    popup.classList.remove('popup__open');
+    popup.classList.remove('popup_open');
 }
 
 editButton.addEventListener('click', openPopup);

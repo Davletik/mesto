@@ -1,6 +1,6 @@
 .profile__edit-button {
     border: 1px solid #FFFFFF;
-    background-color: black;
+    background: transparent;
     max-height: 24px;
     max-width: 24px;
     margin: 15px 0 0 18px;
@@ -15,11 +15,7 @@
     .profile__edit-button {
         max-height: 18px;
         max-width: 18px;
-        margin: 10px 0 0 10px;
-        padding: 0;
-    }
-    .profile__edit-button > img {
-        max-width: 7.5px;
-        padding: 5px;
+        margin: 22px 0 0 10px;
+        padding: 0 3px;
     }
 }

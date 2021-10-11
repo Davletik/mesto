@@ -4,26 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/index.css">
-  <title>Mesto</title>
+  <title>Место</title>
 </head>
 <body class="wrapper">
 <div class="page">
   <header class="header">
     <img src="images/logo.svg" alt="Логотип" class="header__logo">
-    <div class="header__line"></div>
   </header>
   <main>
     <section class="profile">
       <div class="profile__wrapper">
-        <div class="profile__avatar">
           <img src="images/profile__avatar.jpg" alt="Жак-Ив Кусто" class="profile__image">
-        </div>
         <div class="profile__info">
           <div class="profile__content">
             <h1 class="profile__name">
               Жак-Ив Кусто
             </h1>
-            <button class="profile__edit-button">
+            <button type="button" class="profile__edit-button">
               <img src="images/profile__edit-btn.svg" alt="Кнопка редактировать">
             </button>
           </div>
@@ -32,7 +29,7 @@
           </p>
         </div>
       </div>
-      <button class="profile__add-button">
+      <button type="button" class="profile__add-button">
         <img src="images/profile__add-button.svg" alt="Кнопка добавить">
       </button>
     </section>
@@ -41,7 +38,7 @@
         <img src="images/element-karachaevsk.jpg" alt="Карачаевск" class="element__img">
         <div class="element__content-wrap">
           <h2 class="element__text">Карачаевск</h2>
-          <button class="element__btn">
+          <button type="button" class="element__btn">
             <img src="images/element_like.svg" alt="Кнопка нравится">
           </button>
         </div>
@@ -50,7 +47,7 @@
         <img src="images/element-elbrus.png" alt="Гора Эльбрус" class="element__img">
         <div class="element__content-wrap">
           <h2 class="element__text">Гора Эльбрус</h2>
-          <button class="element__btn">
+          <button type="button" class="element__btn">
             <img src="images/element_like.svg" alt="Кнопка нравится">
           </button>
         </div>
@@ -59,7 +56,7 @@
         <img src="images/element-dombai.png" alt="Домбай" class="element__img">
         <div class="element__content-wrap">
           <h2 class="element__text">Домбай</h2>
-          <button class="element__btn">
+          <button type="button" class="element__btn">
             <img src="images/element_like.svg" alt="Кнопка нравится">
           </button>
         </div>
@@ -68,7 +65,7 @@
         <img src="images/element-elbrus.png" alt="Гора Эльбрус" class="element__img">
         <div class="element__content-wrap">
           <h2 class="element__text">Гора Эльбрус</h2>
-          <button class="element__btn">
+          <button type="button" class="element__btn">
             <img src="images/element_like.svg" alt="Кнопка нравится">
           </button>
         </div>
@@ -77,7 +74,7 @@
         <img src="images/element-dombai.png" alt="Домбай" class="element__img">
         <div class="element__content-wrap">
           <h2 class="element__text">Домбай</h2>
-          <button class="element__btn">
+          <button type="button" class="element__btn">
             <img src="images/element_like.svg" alt="Кнопка нравится">
           </button>
         </div>
@@ -86,7 +83,7 @@
         <img src="images/element-karachaevsk.jpg" alt="Карачаевск" class="element__img">
         <div class="element__content-wrap">
           <h2 class="element__text">Карачаево-Ч...</h2>
-          <button class="element__btn">
+          <button type="button" class="element__btn">
             <img src="images/element_like.svg" alt="Кнопка нравится">
           </button>
         </div>
@@ -98,16 +95,14 @@
   </footer>
   <div class="popup">
     <div class="popup__content">
-      <button class="popup__close"></button>
+      <button type="button" class="popup__close"></button>
       <h2 class="popup__title">
         Редактировать профиль
       </h2>
-      <form class="popup__form">
-        <input id="name" placeholder="Имя" type="text" class="popup__input popup__input_name">
-        <div class="popup__line"></div>
-        <input id="profession" placeholder="О себе" type="text" class="popup__input popup__input_profession">
-        <div class="popup__line"></div>
-        <button type="submit" class="popup__button">Сохранить</button>
+      <form name="form" class="popup__form">
+        <input name="name" id="name" placeholder="Имя" type="text" class="popup__input">
+        <input name="profession" id="profession" placeholder="О себе" type="text" class="popup__input">
+        <button name="save" type="submit" class="popup__button">Сохранить</button>
       </form>
     </div>
   </div>

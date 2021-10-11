@@ -6,12 +6,11 @@
    color: #fff;
    padding: 14px 124px 18px;
    max-width: 358px;
+   font-size: 18px;
 }
 
 .popup__button:hover {
-   background: #000000;
    opacity: 0.8;
-   border-radius: 2px;
 }
 
 @media screen and (max-width: 1023px) {
